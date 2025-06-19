@@ -1,0 +1,34 @@
+.hiro {
+  margin: 50px 0;
+  width: 100%;
+  height: auto;
+  @extend %flexbox;
+
+  &__title {
+    @extend %flexbox;
+    flex-direction: column;
+    &--main {
+      margin-top: 32px;
+      margin-bottom: 16px;
+    }
+  }
+  &__content {
+    margin-top: 50px;
+    &--list {
+      display: flex;
+      justify-content: space-between;
+      .main-color{
+        @extend %main-color;
+      }
+      &-item {
+        @extend %flexbox;
+        border-radius: 10px;
+        height: 456px;
+        width: 322px;
+        flex-direction: column;
+        gap: 16px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

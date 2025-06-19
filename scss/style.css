@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.btn__and--color {
+  padding: 10px 25px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 8px;
+  background-color: #02897a;
+  color: white;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 8px;
+  color: #02897a;
+  font-weight: 600;
+}
+
+.btn-margin {
+  margin-top: 22px;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0px;
+}
+.header__logo {
+  width: 100% px;
+  height: 40px;
+  gap: 16px;
+}
+.header__logo--img {
+  width: 40px;
+  height: 36px;
+}
+.header__content {
+  font-size: 16px;
+  gap: 20px;
+}
+.header__content--dark {
+  font-weight: 600;
+}
+.header__content--btnicon {
+  background-color: rgb(234, 230, 230);
+  border-radius: 50%;
+  padding: 8px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hiro {
+  margin: 50px 0;
+  width: 100%;
+  height: auto;
+}
+.hiro__title {
+  flex-direction: column;
+}
+.hiro__title--main {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.hiro__content {
+  margin-top: 50px;
+}
+.hiro__content--list {
+  display: flex;
+  justify-content: space-between;
+}
+.hiro__content--list-item {
+  border-radius: 10px;
+  height: 456px;
+  width: 322px;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer__content--know, .footer__content--logo-item, .footer__content, .footer .container, .footer, .join__content, .join .container, .join, .question__content, .question, .main__content, .main .container, .main, .enterprice__container, .header, .header__logo, .header__content, .hiro, .hiro__title, .hiro__content--list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join__content, .hiro__content--list .main-color {
+  background-color: #02897a;
+  color: white;
+}
+
+.enterprice {
+  background: linear-gradient(to bottom, #F6F6F6, white);
+}
+.enterprice__container {
+  flex-direction: column;
+  gap: 16px;
+  padding: 53px 0;
+}
+.enterprice__container--title {
+  font-weight: 100;
+}
+
+.main .container {
+  flex-direction: column;
+  gap: 80px;
+}
+.main__content {
+  gap: 60px;
+}
+.main__content--list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.main__content--list-item {
+  font-size: 16px;
+}
+.main__content--list-item div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.question {
+  margin-top: 150px;
+}
+.question__content {
+  flex-direction: column;
+  gap: 16px;
+  width: 920px;
+}
+.question__content--down {
+  margin-top: 50px;
+  gap: 16px;
+}
+.question__content--down-item {
+  display: flex;
+  gap: 16px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding: 16px 0;
+}
+.question__content--down-item-div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.question__content--down-item .down {
+  color: rgb(147, 147, 147);
+}
+.question__content--down .fldc {
+  display: flex;
+  flex-direction: column;
+}
+
+.join {
+  margin-top: 150px;
+}
+.join__content {
+  width: 968px;
+  border-radius: 20px;
+}
+.join__content--title {
+  width: 510px;
+  font-size: 28px;
+}
+.join__content--title .btn {
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 150px;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__content {
+  gap: 120px;
+}
+.footer__content--logo {
+  align-self: self-start;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer__content--logo-item {
+  font-size: 30px;
+  gap: 16px;
+}
+.footer__content--recource {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__content--know {
+  width: 325px;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__content--know h4 {
+  font-size: 20px;
+}
+.footer__content--know-input {
+  width: 100%;
+  height: 48px;
+  box-shadow: 2px 2px 8px rgb(188, 188, 188);
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

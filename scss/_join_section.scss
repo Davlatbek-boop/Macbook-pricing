@@ -1,0 +1,21 @@
+.join{
+    margin-top: 150px;
+    @extend %flexbox;
+    .container{
+        @extend %flexbox;
+
+    }
+    &__content{
+        @extend %main-color;
+        @extend %flexbox;
+        width: 968px;
+        border-radius: 20px;
+        &--title{
+            width: 510px;
+            font-size: 28px;
+            .btn{
+                margin-top: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.question {
+  @extend %flexbox;
+  margin-top: 150px;
+  &__content {
+    @extend %flexbox;
+    flex-direction: column;
+    gap: 16px;
+    width: 920px;
+
+    &--down {
+      margin-top: 50px;
+      gap: 16px;
+
+      &-item {
+        display: flex;
+        gap: 16px;
+        border-bottom: 1px solid rgb(180, 180, 180);
+        padding: 16px 0;
+        &-div {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+        .down {
+          color: rgb(147, 147, 147);
+        }
+      }
+      .fldc {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

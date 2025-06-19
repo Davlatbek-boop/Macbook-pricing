@@ -1,0 +1,12 @@
+.enterprice {
+  background: linear-gradient(to bottom, #F6F6F6, white);
+  &__container {
+    @extend %flexbox;
+    flex-direction: column;
+    gap: 16px;
+    padding: 53px 0;
+    &--title{
+        font-weight: 100;
+    }
+  }
+}
